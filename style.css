@@ -1,0 +1,162 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background: #fff;
+}
+
+.navbar .logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2d6a4f;
+}
+
+.navbar .nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar .nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+}
+
+.navbar .nav-btns .login {
+  margin-right: 10px;
+  color: #2d6a4f;
+  text-decoration: none;
+}
+
+.navbar .nav-btns .signup {
+  background: #2d6a4f;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 8%;
+  background: #f8f9fa;
+}
+
+.hero-content h1 {
+  font-size: 42px;
+  line-height: 1.2;
+}
+
+.hero-content span {
+  color: #2d6a4f;
+}
+
+.hero-content p {
+  margin: 15px 0;
+  color: #555;
+}
+
+.btn {
+  display: inline-block;
+  background: #2d6a4f;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* Clients */
+.clients {
+  text-align: center;
+  padding: 50px 8%;
+}
+
+.client-logos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.client-logos img {
+  width: 80px;
+  opacity: 0.8;
+}
+
+/* Features */
+.features {
+  text-align: center;
+  padding: 50px 8%;
+  background: #f8f9fa;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 8%;
+}
+
+.stats-text {
+  width: 50%;
+}
+
+.stats-image img {
+  width: 400px;
+}
+
+/* Growth */
+.growth {
+  padding: 60px 8%;
+  background: #f8f9fa;
+}
+
+.growth-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.growth-text span {
+  color: #2d6a4f;
+}
+
+.growth-numbers {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.growth-numbers .num h3 {
+  color: #2d6a4f;
+}
